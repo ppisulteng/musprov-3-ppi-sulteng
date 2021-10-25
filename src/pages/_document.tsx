@@ -6,9 +6,9 @@ import Document, {
   DocumentContext,
 } from "next/document";
 
-const APP_NAME = "Musprov III PPI Sulawesi Tengah";
+const APP_NAME = "Musyawarah Provinsi PPI Sulawesi Tengah";
 const APP_DESCRIPTION =
-  "Musyawarah Besar Purna Paskibraka Provinsi Sulawesi Tengah";
+  "Musyawarah Provinsi Purna Paskibraka Provinsi Sulawesi Tengah \n Kota Palu - 30 Oktober 2021 \n BERDAYA SAING - KREATIF - MANDIRI";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {

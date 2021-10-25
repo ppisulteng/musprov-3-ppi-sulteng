@@ -8,6 +8,7 @@ import {
   Text,
   useBreakpointValue,
 } from "@chakra-ui/react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -42,7 +43,7 @@ const Hero = () => {
                 zIndex: -1,
               }}
             >
-              Musyawarah Provinsi - III
+              Musyawarah Provinsi
             </Text>
             <br />
             <Text color={"green.500"} as={"span"}>
@@ -67,7 +68,8 @@ const Hero = () => {
             </Text>
           </Heading>
           <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
-BERDAYA SAING - KREATIF - MANDIRI          </Text>
+            BERDAYA SAING - KREATIF - MANDIRI
+          </Text>
           <Stack direction={{ base: "column", md: "row" }} spacing={4}>
             <Button
               rounded={"full"}
@@ -77,9 +79,18 @@ BERDAYA SAING - KREATIF - MANDIRI          </Text>
                 bg: "green.500",
               }}
             >
-              Selengkapnya{" "}
+              Selengkapnya
             </Button>
-            {/* <Button rounded={"full"}>How It Works</Button> */}
+            <Link href="/download" passHref>
+              <Button rounded={"full"}>Dokumen</Button>
+            </Link>
+            <a
+              target="_blank"
+              href="https://twb.nz/musprov-2021"
+              rel="noopener noreferrer"
+            >
+              <Button rounded={"full"}>Tunjukkan Dukunganmu!</Button>
+            </a>
           </Stack>
         </Stack>
       </Flex>
