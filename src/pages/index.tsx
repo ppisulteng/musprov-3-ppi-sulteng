@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <title>MUSPROV PPI Sulteng</title>
         <meta
           name="description"
-          content="Musyawarah Besar Purna Paskibraka Indonesia Sulawesi Tengah"
+          content="Musyawarah Provinsi Purna Paskibraka Provinsi Sulawesi Tengah \n Kota Palu - 30 Oktober 2021 \n BERDAYA SAING - KREATIF - MANDIRI"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
