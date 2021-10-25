@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>MUSPROV PPI Sulteng</title>
+        <title>Musyawarah Provinsi III - PPI Sulteng</title>
         <meta
           name="description"
           content="Musyawarah Provinsi Purna Paskibraka Provinsi Sulawesi Tengah \n Kota Palu - 30 Oktober 2021 \n BERDAYA SAING - KREATIF - MANDIRI"
