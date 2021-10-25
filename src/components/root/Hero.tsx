@@ -42,7 +42,7 @@ const Hero = () => {
                 zIndex: -1,
               }}
             >
-              Musyawarah Provinsi
+              Musyawarah Provinsi - III
             </Text>
             <br />
             <Text color={"green.500"} as={"span"}>
