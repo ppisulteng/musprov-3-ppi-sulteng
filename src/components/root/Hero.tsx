@@ -84,11 +84,7 @@ const Hero = () => {
             <Link href="/download" passHref>
               <Button rounded={"full"}>Dokumen</Button>
             </Link>
-            <Link
-              href="https://twb.nz/musprov-2021"
-              rel="noopener noreferrer"
-              passHref
-            >
+            <Link href="https://twb.nz/musprov-2021" passHref>
               <Button rounded={"full"}>Tunjukkan Dukunganmu!</Button>
             </Link>
           </Stack>
