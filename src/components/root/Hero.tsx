@@ -67,8 +67,7 @@ const Hero = () => {
             </Text>
           </Heading>
           <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
-            TARUH TAG LINE DI SINI
-          </Text>
+BERDAYA SAING - KREATIF - MANDIRI          </Text>
           <Stack direction={{ base: "column", md: "row" }} spacing={4}>
             <Button
               rounded={"full"}
