@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 import Hero from "../components/root/Hero";
+import { Image } from "@chakra-ui/react"
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
+      <div>
+        <Image src="/IMG-20211025-WA0003.jpg" />
+        
+        
+        </div>
     </div>
   );
 };
