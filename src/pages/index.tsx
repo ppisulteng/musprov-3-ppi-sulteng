@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import
+
 import React from "react";
 import Hero from "../components/root/Hero";
 import { Image } from "@chakra-ui/react"
