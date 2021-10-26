@@ -67,10 +67,10 @@ const Hero = () => {
               Sulawesi Tengah
             </Text>
             
-           <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
+           <Text className="my-2" fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
 Waktu : Tanggal 30 Oktober - 1 November 2021
              </Text>
-             <br/>
+            
              <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
 Lokasi : Sutan Raja Hotel, Kota Palu, Sulawesi Tengah</Text>
             
