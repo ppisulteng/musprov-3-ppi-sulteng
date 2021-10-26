@@ -16,25 +16,25 @@ import Link from "next/link";
 const data = [
   {
     id: 1,
-    title: "Tata Tertib Musyawarah",
-    link: "/documents/Tata-Tertib.txt",
-  },
-  {
-    id: 2,
-    title: "Anggaran Dasar Organisasi",
-    link: "/documents/Anggaran-Dasar.txt",
-  },
-  {
-    id: 3,
-    title: "Anggaran Rumah Tangga Organisasi",
-    link: "/documents/Anggaran-Rumah-Tangga.txt",
-  },
-  {
-    id: 4,
-    title:
-      "Syarat dan Formulir Pendaftaran Calon Ketua Umum PPI Sulawesi Tengah",
-    link: "/documents/Syarat-dan-Formulir-Pendaftaran-Ketua-PPI-Sulteng.txt",
-  },
+    title: "Syarat dan Formulir Pendaftaran Calon Ketua PPI Sulawesi Tengah",
+    link: "/Pendaftaran-Calon-Ketua-PPI-Sulteng.pdf"
+  }
+  
+
+
+
+
+
+
+
+ 
+  
+  
+
+
+      
+
+
 ];
 
 const Download = () => {
