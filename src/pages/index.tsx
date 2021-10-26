@@ -18,10 +18,11 @@ const Home: NextPage = () => {
       </Head>
       <Hero />
       <div className="w-full text-center">
-        <div className="w-full m-8">
+        <div className="w-full m-6">
+          
         <Image src="/IMG-20211025-WA0003.jpg" />
         </div>
-        
+
         </div>
     </div>
   );
