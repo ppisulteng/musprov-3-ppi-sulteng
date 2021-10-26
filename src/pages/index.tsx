@@ -20,9 +20,9 @@ const Home: NextPage = () => {
       <div className="w-full text-center">
         <div className="w-full p-6">
           
-        <Image style={{
-            object-fit: fill;
-            }} src="/IMG-20211025-WA0003.jpg" />
+        <Image 
+           
+           src="/IMG-20211025-WA0003.jpg" />
         </div>
 
         </div>
