@@ -3,7 +3,7 @@ import Head from "next/head";
 
 import React from "react";
 import Hero from "../components/root/Hero";
-import { Image } from "@chakra-ui/react"
+import { Center, Image } from "@chakra-ui/react";
 
 const Home: NextPage = () => {
   return (
@@ -17,15 +17,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <div className="w-full text-center">
-        <div className="w-full p-6">
-          
-        <Image 
-           
-           src="/IMG-20211025-WA0003.jpg" />
-        </div>
-
-        </div>
+      <Center>
+        <Image
+          src="/IMG-20211025-WA0003.jpg"
+          alt="Poster Musyawarah Provinsi PPI Sulawesi Tengah"
+        />
+      </Center>
     </div>
   );
 };
