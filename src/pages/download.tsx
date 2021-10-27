@@ -17,24 +17,14 @@ const data = [
   {
     id: 1,
     title: "Syarat dan Formulir Pendaftaran Calon Ketua PPI Sulawesi Tengah",
-    link: "/Pendaftaran-Calon-Ketua-PPI-Sulteng.pdf"
-  }
-  
-
-
-
-
-
-
-
- 
-  
-  
-
-
-      
-
-
+    link: "/Pendaftaran-Calon-Ketua-PPI-Sulteng.pdf",
+  },
+  {
+    id: 1,
+    title:
+      "Undangan Petunjuk Pelaksanaan dan Petunjuk Teknis Musyawarah Provinsi PPI Sulawesi Tengah",
+    link: "Undangan_Juklak_Juknis_Musprov PPI ST.pdf",
+  },
 ];
 
 const Download = () => {
